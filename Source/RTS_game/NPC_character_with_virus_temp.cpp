@@ -72,7 +72,7 @@ int ANPC_character_with_virus_temp::check_func(float percent, int db)
 void ANPC_character_with_virus_temp::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	infect_status = 0;
 }
 
 // Called every frame

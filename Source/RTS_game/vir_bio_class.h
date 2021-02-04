@@ -7,10 +7,10 @@ class  vir_bio_class
 public:
 	vir_bio_class();
 	~vir_bio_class();
-	vector<string> who_can_carry; //病毒携带者
-private:
 	int	id;//病毒序号
 	string name;//病毒名
+	vector<string> who_can_carry; //病毒携带者
+private:
 	float time_worsen;//每多久进行一次恶化判定,单位s/可能与物理帧进行交互
 	float death_percent;//死亡率
 	float heavy_percent;//重症率
